@@ -1,0 +1,19 @@
+{
+  "name": "dirtyherri/DoctrineTrait",
+  "description": "Trait for Doctrine EntityManager to use with silex application",
+  "keywords": ["doctrine", "silex"],
+  "homepage": "https://github.com/DirtyHerri/DoctrineTrait",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "DirtyHerri",
+    "email": "herri@dirtyherri.de",
+    "homepage": "http://dirtyherri.de"
+  }],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {"DirtyHerri": "src/"}
+  }
+}
